@@ -26,3 +26,4 @@ kafka-console-consumer.sh --bootstrap-server localhost:29092 --topic demo_java -
 5. [Consumer demo](./kafka-basics/src/main/java/io/conduktor/demos/kafka/ConsumerDemo.java)
 6. [Consumer with graceful shutdown](./kafka-basics/src/main/java/io/conduktor/demos/kafka/ConsumerWithGracefulShutdown.java)
 7. [Multiple consumer instances in a consumer group](./kafka-basics/src/main/java/io/conduktor/demos/kafka/ConsumerInsideConsumerGroup.java)
+8. [Cooperative rebalance](./kafka-basics/src/main/java/io/conduktor/demos/kafka/ConsumerCooperativeRebalance.java)
