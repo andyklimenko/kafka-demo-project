@@ -23,3 +23,4 @@ kafka-console-consumer.sh --bootstrap-server localhost:29092 --topic demo_java -
 2. [Producer with callback with sticky partitioning](./kafka-basics/src/main/java/io/conduktor/demos/kafka/ProducerDemoWithCallback.java)
 3. [Producer with callback with no sticky partitioning](./kafka-basics/src/main/java/io/conduktor/demos/kafka/ProducerWithCallbackNoStickyPartitioner.java)
 4. [Producer with message keys](./kafka-basics/src/main/java/io/conduktor/demos/kafka/ProducerWithKeys.java)
+5. [Consumer demo](./kafka-basics/src/main/java/io/conduktor/demos/kafka/ConsumerDemo.java)
