@@ -16,7 +16,7 @@ public class ConsumerInsideConsumerGroup {
     private static final Logger log = LoggerFactory.getLogger(ProducerDemo.class.getSimpleName());
 
     public static void main(String[] args) {
-        final String groupID = "mu-java-application";
+        final String groupID = "my-java-application";
         final String topic = "demo_java";
 
         log.info("I'm a Kafka Consumer!");
