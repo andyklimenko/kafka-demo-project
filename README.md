@@ -24,4 +24,5 @@ kafka-console-consumer.sh --bootstrap-server localhost:29092 --topic demo_java -
 3. [Producer with callback with no sticky partitioning](./kafka-basics/src/main/java/io/conduktor/demos/kafka/ProducerWithCallbackNoStickyPartitioner.java)
 4. [Producer with message keys](./kafka-basics/src/main/java/io/conduktor/demos/kafka/ProducerWithKeys.java)
 5. [Consumer demo](./kafka-basics/src/main/java/io/conduktor/demos/kafka/ConsumerDemo.java)
-6. [Consumer demo with graceful shutdown](./kafka-basics/src/main/java/io/conduktor/demos/kafka/ConsumerWithGracefulShutdown.java)
+6. [Consumer with graceful shutdown](./kafka-basics/src/main/java/io/conduktor/demos/kafka/ConsumerWithGracefulShutdown.java)
+7. [Multiple consumer instances in a consumer group](./kafka-basics/src/main/java/io/conduktor/demos/kafka/ConsumerInsideConsumerGroup.java)
